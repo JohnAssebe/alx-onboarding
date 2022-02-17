@@ -1,0 +1,9 @@
+1.set sum to 0
+2.INPUT("Enter numbers separated by spaces: " )
+3.loop over userinput separated by space as ui
+4.  if userinput==0
+5.       break
+6.  else
+7.    sum+=ui x ui
+8.end loop
+9.OUTPUT sum
